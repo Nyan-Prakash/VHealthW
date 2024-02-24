@@ -1,0 +1,27 @@
+/* CartoonButton.css */
+.cartoon-button {
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 #666;
+    transition: transform 0.1s, box-shadow 0.1s;
+  
+    /* Text shadow gives a cool depth effect */
+    text-shadow: 1px 1px 0 #000;
+  }
+  
+  .cartoon-button:hover {
+    transform: translate(1px, 1px);
+    box-shadow: 2px 2px 0 #666;
+  }
+  
+  .cartoon-button:active {
+    transform: translate(3px, 3px);
+    box-shadow: 1px 1px 0 #666;
+  }
+  

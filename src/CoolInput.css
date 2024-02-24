@@ -1,0 +1,24 @@
+/* CoolInput.css */
+.cool-input {
+    padding: 10px 15px;
+    border: 2px solid #009688;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  
+    /* Adding some internal spacing and a little bit of shadow */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cool-input:focus {
+    border-color: #00796b;
+  
+    /* Slightly changing border color on focus */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 0 8px rgba(0, 150, 136, 0.6);
+  }
+  
+  .cool-input::placeholder {
+    color: #009688;
+  }
+  
